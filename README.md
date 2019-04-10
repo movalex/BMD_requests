@@ -1,5 +1,6 @@
 # The most friendly list of requests for Blackmagic Design Fusion and Resolve
-## UI
+## Fusion 16
+### UI
 All the UI tests are made on 1920x1200 monitor.
 
 1. Node size scale is too big.
@@ -42,16 +43,16 @@ All the UI tests are made on 1920x1200 monitor.
 
 Other feature requests:
 
-## Console
+### Console
 1. Expandable console UI with syntax highlighting
 2. Dockable Console UI
 3. Save last commands history on Fusion restart
 
-## Rendering
+### Rendering
 1. Render queue branching
 2. Cache to disk format options
 
-## 3d
+### 3d
 1. Mesh clipping (not alpha, but real polygon slicing)
 2. Polygon count optimisation node (ideally dependent on how far the camera is)
 3. Projection mode for spherical camera
@@ -60,7 +61,7 @@ Other feature requests:
 6. Cast shadows from all lights. PBR Render (yes, I know)
 7. Advanced UV Mapping tool
 
-## Node Management
+### Node Management
 1. Batch change properties for multiple selected nodes.
 2. Copy tool with keystroke-mouse drag
 3. Dock scripts UI in the main UI. 
