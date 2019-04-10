@@ -1,4 +1,4 @@
-# Fusion 16 requests
+# The most friendly list of requests for Blackmagic Design Fusion and Resolve
 ## UI
 All the UI tests are made on 1920x1200 monitor.
 
