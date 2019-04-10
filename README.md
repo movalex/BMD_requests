@@ -26,7 +26,7 @@ All the UI tests are made on 1920x1200 monitor.
 
 7. Set viewer scale button does not toggle the dropdown. Scale menu is not activated when clicked on the scale size (only on the down arrow) https://cl.ly/85c39c43955a. This goes to any dropdown triangle buttons.
 
-8. Animated elements should be outlined, like in Fu9. Red dot is just not enough.
+8. Animated elements should be highlighted, like in Fu9. Red dot is just not enough https://cl.ly/01a0a24552de
 
 9. Add flexible layout option. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically. This is not a demand of the spoiled artists that just object new UI because it is new and they are not familiar with it. Fusion 16 UI just shackles artist's freedom. So flexible layout is a must for Fusion.
 
