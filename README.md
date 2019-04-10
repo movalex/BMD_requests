@@ -36,7 +36,9 @@ All the UI tests are made on 1920x1200 monitor.
 
 12. Add custom scripts buttons in a toolbar. Add movable toolbar. Ok, this goes to flexible UI too.
 
-13. Add parameters for current tool in Viewer. Add jump to currently viewed tool from the Viewer.
+13. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size.
+
+14. Add jump to currently viewed tool from the Viewer.
 
 Other feature requests:
 
