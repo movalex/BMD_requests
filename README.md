@@ -28,7 +28,7 @@ All the UI tests are made on 1920x1200 monitor.
 
 8. Animated elements should be highlighted, like in Fu9. Red dot is just not enough https://cl.ly/01a0a24552de. This will help also to distinguish whether High of Low group is animated in a Range Control
 
-9. Multibutton control has to be actual buttons instead of dropdown menu.
+9. Multibutton control has to be actual buttons instead of dropdown menu: https://cl.ly/3bc9b8649f89
 
 10. Add flexible layout option. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically. This is not a demand of the spoiled artists that just object new UI because it is new and they are not familiar with it. Fusion 16 UI just shackles artist's freedom. So flexible layout is a must for Fusion.
 
