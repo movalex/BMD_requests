@@ -76,5 +76,5 @@ Other feature requests:
 3. add dock scripts UI in the main UI.
 4. add modifiers as tools for the flow, like masks
 5. add colorcode for expression links
-6. add alebic files by drag and drop
+6. add alembic files by drag and drop
 
