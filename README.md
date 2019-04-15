@@ -44,7 +44,8 @@ All the UI tests are made on 1920x1200 monitor.
 15. Right-left arrows in the viewer has to move polygon mask points, not playhead.  
 
 16. Move collapse group button to the right - or better, collapse by the doubleclick on the group header
- 
+
+17. Composition tabs dropdown shows `SubWnd` text instead of comp name.
  
 Other feature requests:
 
