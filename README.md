@@ -45,8 +45,9 @@ All the UI tests are made on 1920x1200 monitor.
 
 16. Move collapse group button to the right - or better, collapse by the doubleclick on the group header
 
-17. Composition tabs dropdown shows `SubWnd` text instead of comp name.
- 
+17. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
+
+
 Other feature requests:
 
 ### Console
@@ -68,7 +69,10 @@ Other feature requests:
 6. Cast shadows from all lights.
 7. Advanced UV Mapping tool
 
-### Node Management
+### Nodes and Flow
 1. Batch change properties for multiple selected nodes.
 2. Copy tool with keystroke-mouse drag
-3. Dock scripts UI in the main UI. 
+3. Dock scripts UI in the main UI.
+4. Modifiers as tools for the flow, like masks
+5. Color code for expression links
+6. Add alebic files by drag and drop
