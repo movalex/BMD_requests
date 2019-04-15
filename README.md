@@ -40,12 +40,18 @@ All the UI tests are made on 1920x1200 monitor.
 
 14. Add jump to currently viewed tool from the Viewer.
 
+15. Right-left arrows in the viewer has to move polygon mask points, not playhead.  
+
+16. Move collapse group button to the right - or better, collapse by the doubleclick on the group header
+ 
+ 
 Other feature requests:
 
 ## Console
 1. Expandable console UI with syntax highlighting
 2. Dockable Console UI
 3. Save last commands history on Fusion restart
+4. Add switch between layouts with commands
 
 ## Rendering
 1. Render queue branching
@@ -57,7 +63,7 @@ Other feature requests:
 3. Projection mode for spherical camera
 4. Enable decay on camera projection
 5. Lights with specular only mode
-6. Cast shadows from all lights. PBR Render (yes, I know)
+6. Cast shadows from all lights.
 7. Advanced UV Mapping tool
 
 ## Node Management
