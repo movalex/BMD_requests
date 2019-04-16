@@ -1,4 +1,4 @@
-# The most friendly list of requests for Blackmagic Design Fusion and Resolve
+# The most friendly list of requests for Blackmagic Design Fusion
 ## Fusion 16
 ### UI
 
