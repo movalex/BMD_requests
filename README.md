@@ -41,10 +41,9 @@
 
 14. Add jump to currently viewed tool from the Viewer.
 
-15. Right-left arrows in the viewer has to move polygon mask points, not playhead.  
+15. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10 px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all. 
 
 16. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
-
 
 
 
