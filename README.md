@@ -31,9 +31,10 @@ All the UI tests are made on 1920x1200 monitor.
 
 9. Multibutton control has to be actual buttons instead of dropdown menu - The dropdow hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
 
-10. Add flexible layout option. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically. This is not a demand of the spoiled artists that just object new UI because it is new and they are not familiar with it. Fusion 16 UI just shackles artist's freedom. So flexible layout is a must for Fusion.
+10. Add flexible layout option. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put node tree on the right. So flexible layout is a must for Fusion.
+Currently we can add new floating frame and partially move UI elements there, as suggested here: https://forum.blackmagicdesign.com/viewtopic.php?f=22&t=88866&start=50#p499609. The layout is saved with comp metadata, so theoretically it can be reused, but it does not show proper UI on launch. Here's a brief report for this issue: https://www.steakunderwater.com/wesuckless/viewtopic.php?p=23222#p23222
 
-11. Add fullscreen view for Fusion, double monitor UI, like in Resolve (yes, we love Resolve too!)
+11. Add fullscreen UI for Fusion, add double monitor layout, like in Resolve (yes, we love Resolve too!)
 
 12. Add custom scripts buttons in a toolbar. Add movable toolbar. Ok, this goes to flexible UI too.
 
@@ -45,8 +46,7 @@ All the UI tests are made on 1920x1200 monitor.
 
 16. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
 
-17. Move collapse group button to the right - or better, collapse by the doubleclick on the group header
-
+17. Move collapse group button to the right - or better, collapse by the doubleclick on the group header.
 
 
 Other feature requests:
@@ -58,8 +58,7 @@ Other feature requests:
 4. Add switch between layouts with commands
 
 ### Rendering
-1. Render queue branching
-2. Cache to disk format options
+1. Cache to disk format options
 
 ### 3d
 1. Mesh clipping (not alpha, but real polygon slicing)
@@ -77,4 +76,4 @@ Other feature requests:
 4. add modifiers as tools for the flow, like masks
 5. add colorcode for expression links
 6. add alembic files by drag and drop
-
+7. add choose layouts buttons (i.e toggle single/dual viewer with single button)
