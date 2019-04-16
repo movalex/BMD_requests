@@ -45,7 +45,7 @@
 
 16. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
 
-17. Move collapse group button to the right - or better, collapse by the doubleclick on the group header.
+
 
 
 Other feature requests:
@@ -75,3 +75,4 @@ Other feature requests:
 5. add colorcode for expression links
 6. add alembic files by drag and drop
 7. add choose layouts buttons (i.e toggle single/dual viewer with single button)
+8. Collapse nodes group by doubleclick on the group's header.
