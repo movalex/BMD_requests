@@ -1,7 +1,6 @@
 # The most friendly list of requests for Blackmagic Design Fusion and Resolve
 ## Fusion 16
 ### UI
-All the UI tests are made on 1920x1200 monitor.
 
 1. Node size scale is too big.
     - Currently Fusion 16 flow scale measurements are the same as in Fu9. For instance, the node name disappears from the view at the FlowView scale of 0.6 in both versions. But since the nodes in fu16 are initially bigger, the text disappears too early, and we end up with normal size nodes without any text. https://cl.ly/5741fc26e46e
