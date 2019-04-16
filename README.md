@@ -43,25 +43,27 @@
 
 15. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
 
+16. Masked Background disappears on mask move: a) add BG with polygon, b) select all poinst and move: https://cl.ly/748406a06eb7
+
 
 Other feature requests:
 
 ### Console
 1. Expandable console UI with syntax highlighting
-2. Dockable Console UI
+2. Console should be dockable
 3. Save last commands history on Fusion restart
-4. Add switch between layouts with commands
+4. Add switch between layouts with console commands or scripts
 
 ### Rendering
-1. Cache to disk format options
+1. add cache to disk format options
 
 ### 3d
-1. Mesh clipping (not alpha, but real polygon slicing)
-2. Polygon count optimisation node (ideally dependent on how far the camera is)
-3. Projection mode for spherical camera
-4. Enable decay on camera projection
+1. add mesh clipping (not alpha, but real polygon slicing)
+2. add Polygon count optimisation node (ideally based on the Level of detail technique)
+3. add Projection mode for spherical camera
+4. add Enable decay on camera projection
 5. Lights with specular only mode
-6. Cast shadows from all lights.
+6. add cast shadows from all lights.
 
 ### Nodes and Flow
 1. add batch change properties for multiple selected nodes.
