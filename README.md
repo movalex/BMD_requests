@@ -66,7 +66,6 @@ Other feature requests:
 4. Enable decay on camera projection
 5. Lights with specular only mode
 6. Cast shadows from all lights.
-7. Advanced UV Mapping tool
 
 ### Nodes and Flow
 1. add batch change properties for multiple selected nodes.
