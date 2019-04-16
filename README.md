@@ -12,7 +12,7 @@ All the UI tests are made on 1920x1200 monitor.
     - Underlays are drawn inconsistently. With minimum scale they are represented as outlines. They should be filled instead. https://cl.ly/2900fe6495f4
 
 3. Too much unused space:
-    - Keyframes view as a screaming example:
+    - Keyframes view as an example:
     https://cl.ly/62fc6277d620
         * line space too wide 
         * nodes list column is also too wide
