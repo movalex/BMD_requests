@@ -45,6 +45,28 @@
 
 16. Masked Background disappears on mask move: a) add BG with polygon, b) select all poinst and move: https://cl.ly/748406a06eb7
 
+17. Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.
+
+18. Move the Audio Enable button to the other side of the play controls and include a volume slider (same as resolve edit page)
+
+19. Make the Inspector panel collapse down next to the flow instead of the views when clicking the arrow toggle in the upper right corner.
+
+20. Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click (click on 'Spline' while holding alt or middle clicking and the 'Nodes' and Keyframes' panels are hidden instead of having split view, etc.)
+
+21. Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar.
+
+22. Trim 8 to 10 pixels from the height of the play control bar.
+
+23. Include the current frame number in small type and top-justified right next to the red playhead in the time ruler.
+
+24. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
+
+25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
+
+26. Make the global and render frame range fields in the play contorl bar wider to fully display feet+frames when using that mode.
+
+27. Additional Subview options: a. Add ability to drag a subview outside of the view panel b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays withint the views.
+
 
 Other feature requests:
 
@@ -74,3 +96,9 @@ Other feature requests:
 6. add alembic files by drag and drop
 7. add choose layouts buttons (i.e toggle single/dual viewer with single button)
 8. Collapse nodes group by doubleclick on the group's header.
+9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+
+### Media Management and Workflow
+1. Add a scaled down media management page with project management / version and revision features like Generation.
+
+2. Add external referencing of other .comp files so that a loader can read for all available savers from the externally referenced comp,let the user select which saver to pull results from, then checks for dependencies on disk. If a dependency doesn't exist on disk, then the external comp frame gets rendered automatically and saved to disk according to the saver parameters and subsequently loaded into the current open comp. - This is useful for templating, adding overlays and watermarks, pre-comps, and merging split comps.
