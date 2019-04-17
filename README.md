@@ -72,33 +72,57 @@ Other feature requests:
 
 ### Console
 1. Expandable console UI with syntax highlighting
+
 2. Console should be dockable
+
 3. Save last commands history on Fusion restart
+
 4. Add switch between layouts with console commands or scripts
 
 ### Rendering
 1. add cache to disk format options
 
-### 3d
+### 3D
 1. add mesh clipping (not alpha, but real polygon slicing)
-2. add Polygon count optimisation node (ideally based on the Level of detail technique)
-3. add Projection mode for spherical camera
-4. add Enable decay on camera projection
-5. Lights with specular only mode
-6. add cast shadows from all lights.
+
+2. add Polygon count optimisation node (polygon reduction)
+
+3. add Level of Detail Node (dependent on how far the camera is)
+
+4. add cast shadows from all lights
+
+5. Addition of own PBR Path Tracing Render Engine or support of already existing ones (like Octance, VRay, Redshift, Corona, Cycles, etc.)
+
+6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine
+
+7. add Projection mode for spherical camera
+
+8. add Enable decay on camera projection
+
+9. Lights with specular only mode
+
 
 ### Nodes and Flow
 1. add batch change properties for multiple selected nodes.
+
 2. add Copy tool with keystroke-mouse drag
+
 3. scripts with UI should be dockable within native interface
+
 4. add modifiers as tools for the flow, like masks
+
 5. add colorcode for expression links
+
 6. add alembic files by drag and drop
+
 7. add choose layouts buttons (i.e toggle single/dual viewer with single button)
+
 8. Collapse nodes group by doubleclick on the group's header.
+
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
 
-2. Add external referencing of other .comp files so that a loader can read for all available savers from the externally referenced comp,let the user select which saver to pull results from, then checks for dependencies on disk. If a dependency doesn't exist on disk, then the external comp frame gets rendered automatically and saved to disk according to the saver parameters and subsequently loaded into the current open comp. - This is useful for templating, adding overlays and watermarks, pre-comps, and merging split comps.
+2. Add external referencing of other .comp files so that a loader can read for all available savers from the externally referenced comp, let the user select which saver to pull results from, then checks for dependencies on disk. If a dependency doesn't exist on disk, then the external comp frame gets rendered automatically and saved to disk according to the saver parameters and subsequently loaded into the current open comp. - This is useful for templating, adding overlays and watermarks, pre-comps, and merging split comps.
