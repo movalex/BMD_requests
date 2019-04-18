@@ -22,7 +22,7 @@
 
 5. On-screen view controls are hidden behind context menus, this triples the amount of clicks. We need DoD, lock view, show normalized buttons. Also show only selected tool button in Splines and Keyframes.
 
-6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9
+6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9 (or both, icon with text)
 
 7. Set viewer scale button does not toggle the dropdown. Scale menu is not activated when clicked on the scale size (only on the down arrow) https://cl.ly/85c39c43955a. This goes to any dropdown triangle buttons.
 
@@ -97,13 +97,19 @@ Other feature requests:
 
 5. Addition of own PBR Path Tracing Render Engine or support of already existing ones (like Octance, VRay, Redshift, Corona, Cycles, etc.)
 
-6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine
+6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine ( or Hybrid PBR for previews, Redshift for Final Renders) 
 
 7. add Projection mode for spherical camera
 
 8. add Enable decay on camera projection
 
 9. Lights with specular only mode
+
+10. Replace Material with preserve Bump option. Would allow complex modelling using normal maps, then apply a few Texture and Shading Materials while preserving the bump.
+
+11. Matte object with inverse effect. Shows what is infront of object only ( similar to slice)  
+
+
 
 
 ### Nodes and Flow
@@ -124,6 +130,11 @@ Other feature requests:
 8. Collapse nodes group by doubleclick on the group's header.
 
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+
+10. Modifiers as nodes in own node viewer
+
+11. RightClick on option for example comps like Houdini.
+
 
 
 ### Media Management and Workflow
