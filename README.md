@@ -88,6 +88,13 @@ Other feature requests:
 
 4. Add switch between layouts with console commands or scripts
 
+5. Add option for verbose logging of all actions with and without hierarchy - This could be a seperate tab within the console
+    a. This will help with troubleshooting exactly where stuff breaks as we can see all actions executed up to that point
+    b. This will help to quickly copy and paste paramters into expressions as we can tweak a paramter and then select and copy the console output.
+    c. perhaps this would be useful for calling a script or command once, copying from console and then paste back into console input for repeated use.
+    
+6. Add a quick input feild inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commnands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
+
 ### Rendering
 1. add cache to disk format options
 
@@ -116,6 +123,8 @@ Other feature requests:
 
 9. Lights with specular only mode
 
+10. Add a new tool for mesh point manipulation that gets all points from it input and creates a cage for morphing at various subdivision levels. (similar to the correction deformer in Cinema 4D)
+
 
 ### Nodes and Flow
 1. add batch change properties for multiple selected nodes.
@@ -140,8 +149,17 @@ Other feature requests:
 
 11. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
 
+12. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
+
+13. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expresions, contain custom controls, or contain keyframes.
+
+14. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
 
 2. Add external referencing of other .comp files so that a loader can read for all available savers from the externally referenced comp, let the user select which saver to pull results from, then checks for dependencies on disk. If a dependency doesn't exist on disk, then the external comp frame gets rendered automatically and saved to disk according to the saver parameters and subsequently loaded into the current open comp. - This is useful for templating, adding overlays and watermarks, pre-comps, and merging split comps.
+
+### Fuse Development
+1. Add a GUI/ integrated IDE for developing Fuses and Macros. 
+Within this GUI, add a sidebar with a library of preset functions and all availalbe classes, etc. Also include a GUI section with Checkboxes and naming fields for FuRegisterClass. Include a dropdown menu to select which category the Fuse belongs in or create a new category.
