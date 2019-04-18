@@ -66,7 +66,9 @@
 26. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
 
 27. Additional Subview options:
+
     a. Add ability to drag a subview outside of the view panel
+
     b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays within the views.
 
 28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful. 
@@ -91,8 +93,11 @@ Other feature requests:
 4. Add switch between layouts with console commands or scripts
 
 5. Add option for verbose logging of all actions with and without hierarchy - This could be a separate tab within the console
+
     a. This will help with troubleshooting exactly where stuff breaks as we can see all actions executed up to that point
+
     b. This will help to quickly copy and paste paramters into expressions as we can tweak a paramter and then select and copy the console output.
+
     c. perhaps this would be useful for calling a script or command once, copying from console and then paste back into console input for repeated use.
     
 6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
