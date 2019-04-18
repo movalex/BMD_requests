@@ -123,7 +123,7 @@ Other feature requests:
 
 9. Lights with specular only mode
 
-10. Add a new tool for mesh point manipulation that gets all points from it input and creates a cage for morphing at various subdivision levels. (similar to the correction deformer in Cinema 4D)
+10. Add a new tool for mesh point manipulation that gets all points from its input and creates a cage for morphing at various subdivision levels. (similar to the correction deformer in Cinema 4D)
 
 
 ### Nodes and Flow
