@@ -138,7 +138,7 @@ Other feature requests:
 
 10. OCIO nodes should have a pre-divide/post-multiply checkbox.
 
-11. Add the possibility to replace a node with another one with keystroke + mouse drag.
+11. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
 
 
 ### Media Management and Workflow
