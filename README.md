@@ -69,7 +69,12 @@
 
 28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution when you have half of the space for each function its not ideal, there is not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of two. Adding shortcut would also useful. 
 
-29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph. 
+29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph.
+
+30. Nodes should light up when processed much more than currently is. In F9 it was easy to se what's going on in both the node-viewer and the navigator but in F16 it's very hard to see. On green nodes it's extremly hard to see and when zoomed out so the text in the nodes hide, nothing at all indicates that nodes are being processed any longer.
+One solution would be for the nodes to have a outline lighten up while they process. https://imgur.com/R22NNSJ
+
+31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost imposible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even futher help expression writing. https://imgur.com/uGWgIzT
 
 
 Other feature requests:
@@ -85,6 +90,12 @@ Other feature requests:
 
 ### Rendering
 1. add cache to disk format options
+
+2. Saver nodes shouldn't process nodes before it while rendering if the current rendering frame isn't inside the saver nodes in and outpoint. This would result in greater flexibilities when rendering and also it's just unnecessary for fusion to render information that never will be used later in the flow.
+
+3. Posibility to render only non-existing files. Sometimes some frames get messed up (especially when network rendering). The quickest way to fix it would be to go through the rendered image sequence, delete the bad frames and only render the missing frames. One small checkbox is all that is needed.
+
+4. There should be a cache-node. Currently it's hard to see if the node is cached or not, also the caching acts how ever it wants. Sometimes it doesn't update, sometimes it updates even when it shouldn't. A node would give the user more options like disk cache format as some nodes might need high quality caching while others can take very low quality. A checkbox could also be added to opt in/out on auto-updating the cache so the user itself can update the cache when ever it fits.
 
 ### 3D
 1. add mesh clipping (not alpha, but real polygon slicing)
@@ -124,6 +135,10 @@ Other feature requests:
 8. Collapse nodes group by doubleclick on the group's header.
 
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+
+10. All nodes should have a pre-divide/post-multiply checkbox under the settings tab. Some nodes have this like the BC node but eg. the OCIO nodes doesn't have having to add pre-div/post-mult nodes if only one node needs it takes up a lot of space.
+
+11. Add Replace tool with keystroke-mouse drag
 
 
 ### Media Management and Workflow
