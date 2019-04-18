@@ -67,6 +67,10 @@
 
 27. Additional Subview options: a. Add ability to drag a subview outside of the view panel b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays withint the views.
 
+28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution when you have half of the space for each function its not ideal, there is not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of two. Adding shortcut would also useful. 
+
+29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph. 
+
 
 Other feature requests:
 
