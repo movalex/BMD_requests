@@ -69,7 +69,12 @@
 
 28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution when you have half of the space for each function its not ideal, there is not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of two. Adding shortcut would also useful. 
 
-29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph. 
+29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph.
+
+30. Nodes should light up when processed much more than currently is. In F9 it was easy to se what's going on in both the node-viewer and the navigator but in F16 it's very hard to see. On green nodes it's extremly hard to see and when zoomed out so the text in the nodes hide, nothing at all indicates that nodes are being processed any longer.
+One solution would be for the nodes to have a outline lighten up while they process. https://imgur.com/R22NNSJ
+
+31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost imposible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even futher help expression writing. https://imgur.com/uGWgIzT
 
 
 Other feature requests:
@@ -85,6 +90,12 @@ Other feature requests:
 
 ### Rendering
 1. add cache to disk format options
+
+2. Fusion should only process the needed frames and nodes when rendering, meaning only the frames within the render nodes start and end time should be rendered. The result should be like when you're writing your own frame ranges in the render settings, the render jumps to the frames I'm telling it to render and skipps all the other frames.
+
+3. Saver feature request: add option to skip existing sequence frames on rendering stage to speed up delivery.
+
+4. There should be a cache-node. Currently it's hard to see if the node is cached or not, also the caching acts how ever it wants. Sometimes it doesn't update, sometimes it updates even when it shouldn't. A node would give the user more options like disk cache format as some nodes might need high quality caching while others can take very low quality. A checkbox could also be added to opt in/out on auto-updating the cache so the user itself can update the cache when ever it fits.
 
 ### 3D
 1. add mesh clipping (not alpha, but real polygon slicing)
@@ -124,6 +135,10 @@ Other feature requests:
 8. Collapse nodes group by doubleclick on the group's header.
 
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+
+10. OCIO nodes should have a pre-divide/post-multiply checkbox.
+
+11. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
 
 
 ### Media Management and Workflow
