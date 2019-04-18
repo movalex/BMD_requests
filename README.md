@@ -136,7 +136,7 @@ Other feature requests:
 
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
 
-10. All nodes should have a pre-divide/post-multiply checkbox under the settings tab. Some nodes have this like the BC node but eg. the OCIO nodes doesn't have having to add pre-div/post-mult nodes if only one node needs it takes up a lot of space.
+10. OCIO nodes should have a pre-divide/post-multiply checkbox.
 
 11. Add the possibility to replace a node with another one with keystroke + mouse drag.
 
