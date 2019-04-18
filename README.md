@@ -20,7 +20,7 @@
 
 4. Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear https://cl.ly/a3f3ab9e9c55
 
-5. On-screen view controls are hidden behind context menus, this triples the amount of clicks. We need DoD, lock view, show normalized buttons. Also show only selected tool button in Splines and Keyframes.
+5. On-screen view controls are hidden behind context menus, this triples the amount of clicks. We need DoD, lock view, show normalized, Gain/Gamma buttons. Also `show only selected tool` button in Splines and Keyframes.
 
 6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9 (or both, icon with text)
 
