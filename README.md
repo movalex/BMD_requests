@@ -91,9 +91,9 @@ Other feature requests:
 ### Rendering
 1. add cache to disk format options
 
-2. Saver nodes shouldn't process nodes before it while rendering if the current rendering frame isn't inside the saver nodes in and outpoint. This would result in greater flexibilities when rendering and also it's just unnecessary for fusion to render information that never will be used later in the flow.
+2. Fusion should only process the needed frames and nodes when rendering, meaning only the frames within the render nodes start and end time should be rendered. The result should be like when you're writing your own frame ranges in the render settings, the render jumps to the frames I'm telling it to render and skipps all the other frames.
 
-3. Posibility to render only non-existing files. Sometimes some frames get messed up (especially when network rendering). The quickest way to fix it would be to go through the rendered image sequence, delete the bad frames and only render the missing frames. One small checkbox is all that is needed.
+3. Saver feature request: add option to skip existing sequence frames on rendering stage to speed up delivery.
 
 4. There should be a cache-node. Currently it's hard to see if the node is cached or not, also the caching acts how ever it wants. Sometimes it doesn't update, sometimes it updates even when it shouldn't. A node would give the user more options like disk cache format as some nodes might need high quality caching while others can take very low quality. A checkbox could also be added to opt in/out on auto-updating the cache so the user itself can update the cache when ever it fits.
 
@@ -138,7 +138,7 @@ Other feature requests:
 
 10. All nodes should have a pre-divide/post-multiply checkbox under the settings tab. Some nodes have this like the BC node but eg. the OCIO nodes doesn't have having to add pre-div/post-mult nodes if only one node needs it takes up a lot of space.
 
-11. Add Replace tool with keystroke-mouse drag
+11. Add the possibility to replace a node with another one with keystroke + mouse drag.
 
 
 ### Media Management and Workflow
