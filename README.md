@@ -144,7 +144,7 @@ Other feature requests:
 
 3. Scripts with UI should be dockable within native interface
 
-4. Add modifiers as tools for the flow, like masks
+4. Add modifiers as tools for the flow (like masks)
 
 5. Add colorcode for expression links
 
@@ -158,17 +158,15 @@ Other feature requests:
 
 10. OCIO nodes should have a pre-divide/post-multiply checkbox.
 
-11. Modifiers as nodes in own node viewer
+11. Right-Click on option for example comps like Houdini
 
-12. Right-Click on option for example comps like Houdini
+12. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
 
-13. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
+13. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
 
-14. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
+14. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 
-15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
-
-16. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
+15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
