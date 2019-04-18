@@ -22,7 +22,7 @@
 
 5. On-screen view controls are hidden behind context menus, this triples the amount of clicks. We need DoD, lock view, show normalized buttons. Also show only selected tool button in Splines and Keyframes.
 
-6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9
+6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9 (or both, icon with text)
 
 7. Set viewer scale button does not toggle the dropdown. Scale menu is not activated when clicked on the scale size (only on the down arrow) https://cl.ly/85c39c43955a. This goes to any dropdown triangle buttons.
 
@@ -67,7 +67,7 @@
 
 27. Additional Subview options: a. Add ability to drag a subview outside of the view panel b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays withint the views.
 
-28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution when you have half of the space for each function its not ideal, there is not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of two. Adding shortcut would also useful. 
+28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful. 
 
 29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph.
 
@@ -115,7 +115,7 @@ Other feature requests:
 
 5. Addition of own PBR Path Tracing Render Engine or support of already existing ones (like Octance, VRay, Redshift, Corona, Cycles, etc.)
 
-6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine
+6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine (or Hybrid PBR for previews, Redshift for Final Renders) 
 
 7. add Projection mode for spherical camera
 
@@ -124,6 +124,10 @@ Other feature requests:
 9. Lights with specular only mode
 
 10. Add a new tool for mesh point manipulation that gets all points from its input and creates a cage for morphing at various subdivision levels. (similar to the correction deformer in Cinema 4D)
+
+11. Replace Material with preserve Bump option. Would allow complex modelling using normal maps, then apply a few Texture and Shading Materials while preserving the bump.
+
+12. Matte object with inverse effect. Shows what is infront of object only (similar to slice)  
 
 
 ### Nodes and Flow
@@ -147,13 +151,17 @@ Other feature requests:
 
 10. OCIO nodes should have a pre-divide/post-multiply checkbox.
 
-11. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
+11. Modifiers as nodes in own node viewer
 
-12. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
+12. RightClick on option for example comps like Houdini
 
-13. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expresions, contain custom controls, or contain keyframes.
+13. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
 
-14. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
+14. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
+
+15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expresions, contain custom controls, or contain keyframes.
+
+16. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
