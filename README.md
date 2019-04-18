@@ -22,7 +22,7 @@
 
 5. On-screen view controls are hidden behind context menus, this triples the amount of clicks. We need DoD, lock view, show normalized, Gain/Gamma buttons. Also `show only selected tool` button in Splines and Keyframes.
 
-6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9 (or both, icon with text)
+6. Oddly enough some buttons remained text only, such as `HQ`, `MB`, `Some`. We need an option for text-only Toolbar buttons, like in Fu9 (options like: only icons, only text, or both, icon with text)
 
 7. Set viewer scale button does not toggle the dropdown. Scale menu is not activated when clicked on the scale size (only on the down arrow) https://cl.ly/85c39c43955a. This goes to any dropdown triangle buttons.
 
