@@ -28,7 +28,7 @@
 
 8. Animated elements should be highlighted, like in Fu9. Red dot is just not enough https://cl.ly/01a0a24552de. This will help also to distinguish whether High of Low group is animated in a Range Control
 
-9. Multibutton control has to be actual buttons instead of dropdown menu - The dropdow hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
+9. Multibutton control has to be actual buttons instead of dropdown menu - The dropdown hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
 
 10. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. 
 * Currently we can add new floating frame and partially move UI elements there, as suggested here: https://forum.blackmagicdesign.com/viewtopic.php?f=22&t=88866&start=50#p499609. The layout is saved with comp metadata, so theoretically it can be reused, but it does not show proper UI on launch. Here's a brief report for this issue: https://www.steakunderwater.com/wesuckless/viewtopic.php?p=23222#p23222
@@ -43,7 +43,7 @@
 
 15. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
 
-16. Masked Background disappears on mask move: a) add BG with polygon, b) select all poinst and move: https://cl.ly/748406a06eb7
+16. Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7
 
 17. Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.
 
@@ -63,18 +63,20 @@
 
 25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
 
-26. Make the global and render frame range fields in the play contorl bar wider to fully display feet+frames when using that mode.
+26. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
 
-27. Additional Subview options: a. Add ability to drag a subview outside of the view panel b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays withint the views.
+27. Additional Subview options:
+    a. Add ability to drag a subview outside of the view panel
+    b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays within the views.
 
 28. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful. 
 
-29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking avay lots of space with no use that could be used to view the image or navigate the node graph.
+29. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking away lots of space with no use that could be used to view the image or navigate the node graph.
 
-30. Nodes should light up when processed much more than currently is. In F9 it was easy to se what's going on in both the node-viewer and the navigator but in F16 it's very hard to see. On green nodes it's extremly hard to see and when zoomed out so the text in the nodes hide, nothing at all indicates that nodes are being processed any longer.
+30. Nodes should light up when processed much more than currently is. In F9 it was easy to see what's going on in both the node-viewer and the navigator but in F16 it's very hard to see. On green nodes it's extremely hard to see and when zoomed out so the text in the nodes hide, nothing at all indicates that nodes are being processed any longer.
 One solution would be for the nodes to have a outline lighten up while they process. https://imgur.com/R22NNSJ
 
-31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost imposible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even futher help expression writing. https://imgur.com/uGWgIzT
+31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost impossible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even further help expression writing. https://imgur.com/uGWgIzT
 
 
 Other feature requests:
@@ -88,32 +90,32 @@ Other feature requests:
 
 4. Add switch between layouts with console commands or scripts
 
-5. Add option for verbose logging of all actions with and without hierarchy - This could be a seperate tab within the console
+5. Add option for verbose logging of all actions with and without hierarchy - This could be a separate tab within the console
     a. This will help with troubleshooting exactly where stuff breaks as we can see all actions executed up to that point
     b. This will help to quickly copy and paste paramters into expressions as we can tweak a paramter and then select and copy the console output.
     c. perhaps this would be useful for calling a script or command once, copying from console and then paste back into console input for repeated use.
     
-6. Add a quick input feild inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commnands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
+6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
 
 ### Rendering
-1. add cache to disk format options
+1. Add cache to disk format options
 
-2. Fusion should only process the needed frames and nodes when rendering, meaning only the frames within the render nodes start and end time should be rendered. The result should be like when you're writing your own frame ranges in the render settings, the render jumps to the frames I'm telling it to render and skipps all the other frames.
+2. Fusion should only process the needed frames and nodes when rendering, meaning only the frames within the render nodes start and end time should be rendered. The result should be like when you're writing your own frame ranges in the render settings, the render jumps to the frames I'm telling it to render and skips all the other frames.
 
 3. Saver feature request: add option to skip existing sequence frames on rendering stage to speed up delivery.
 
 4. There should be a cache-node. Currently it's hard to see if the node is cached or not, also the caching acts how ever it wants. Sometimes it doesn't update, sometimes it updates even when it shouldn't. A node would give the user more options like disk cache format as some nodes might need high quality caching while others can take very low quality. A checkbox could also be added to opt in/out on auto-updating the cache so the user itself can update the cache when ever it fits.
 
 ### 3D
-1. add mesh clipping (not alpha, but real polygon slicing)
+1. Add mesh clipping (not alpha, but real polygon slicing)
 
-2. add Polygon count optimisation node (polygon reduction)
+2. Add Polygon count optimization node (polygon reduction)
 
 3. add Level of Detail Node (dependent on how far the camera is)
 
 4. add cast shadows from all lights
 
-5. Addition of own PBR Path Tracing Render Engine or support of already existing ones (like Octance, VRay, Redshift, Corona, Cycles, etc.)
+5. Addition of own PBR Path Tracing Render Engine or support of already existing ones (like Octane, VRay, Redshift, Corona, Cycles, etc.)
 
 6. Realtime PBR Render Engine for Previewing Shaders for Path Tracing Render Engine (or Hybrid PBR for previews, Redshift for Final Renders) 
 
@@ -125,27 +127,27 @@ Other feature requests:
 
 10. Add a new tool for mesh point manipulation that gets all points from its input and creates a cage for morphing at various subdivision levels. (similar to the correction deformer in Cinema 4D)
 
-11. Replace Material with preserve Bump option. Would allow complex modelling using normal maps, then apply a few Texture and Shading Materials while preserving the bump.
+11. Replace Material with preserve Bump option. Would allow complex modeling using normal maps, then apply a few Texture and Shading Materials while preserving the bump.
 
-12. Matte object with inverse effect. Shows what is infront of object only (similar to slice)  
+12. Matte object with inverse effect. Shows what is in front of object only (similar to slice)  
 
 
 ### Nodes and Flow
-1. add batch change properties for multiple selected nodes.
+1. Add batch change properties for multiple selected nodes.
 
-2. add Copy tool with keystroke-mouse drag
+2. Add Copy tool with keystroke-mouse drag
 
-3. scripts with UI should be dockable within native interface
+3. Scripts with UI should be dockable within native interface
 
-4. add modifiers as tools for the flow, like masks
+4. Add modifiers as tools for the flow, like masks
 
-5. add colorcode for expression links
+5. Add colorcode for expression links
 
-6. add alembic files by drag and drop
+6. Add alembic files by drag and drop
 
-7. add choose layouts buttons (i.e toggle single/dual viewer with single button)
+7. Add choose layouts buttons (i.e toggle single/dual viewer with single button)
 
-8. Collapse nodes group by doubleclick on the group's header.
+8. Collapse nodes group by double-click on the group's header.
 
 9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
 
@@ -153,13 +155,13 @@ Other feature requests:
 
 11. Modifiers as nodes in own node viewer
 
-12. RightClick on option for example comps like Houdini
+12. Right-Click on option for example comps like Houdini
 
-13. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a bool already existing in my flow viewer. I should be able to hold down ctrl, drag the bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automaticly.
+13. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
 
 14. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
 
-15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expresions, contain custom controls, or contain keyframes.
+15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 
 16. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
 
@@ -170,4 +172,4 @@ Other feature requests:
 
 ### Fuse Development
 1. Add a GUI/ integrated IDE for developing Fuses and Macros. 
-Within this GUI, add a sidebar with a library of preset functions and all availalbe classes, etc. Also include a GUI section with Checkboxes and naming fields for FuRegisterClass. Include a dropdown menu to select which category the Fuse belongs in or create a new category.
+Within this GUI, add a sidebar with a library of preset functions and all available classes, etc. Also include a GUI section with Checkboxes and naming fields for FuRegisterClass. Include a dropdown menu to select which category the Fuse belongs in or create a new category.
