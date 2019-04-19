@@ -7,8 +7,9 @@
     - minimum scale is also too large. Here's side-by-side comparison of the minimum size flow in Fu16 and Fu9 https://cl.ly/8d096181e9a4
     - node elements (arrows, lines) should gradually scale down when scale is below 1. Right now they are only scaled on flow scale < 0.6 
 
-2. Underlay draw
-    - Underlays are drawn inconsistently. With minimum scale they are represented as outlines. They should be filled instead. https://cl.ly/2900fe6495f4
+2. Underlays 
+* With minimum scale Underlays are represented as outlines https://cl.ly/2900fe6495f4. They should be filled instead.
+* Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb
 
 3. Too much unused space:
     - Keyframes view as an example:
@@ -33,13 +34,13 @@
 10. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. 
 * Currently we can add new floating frame and partially move UI elements there, as suggested here: https://forum.blackmagicdesign.com/viewtopic.php?f=22&t=88866&start=50#p499609. The layout is saved with comp metadata, so theoretically it can be reused, but it does not show proper UI on launch. Here's a brief report for this issue: https://www.steakunderwater.com/wesuckless/viewtopic.php?p=23222#p23222
 
-11. Add fullscreen UI for Fusion, add double monitor layout, like in Resolve (yes, we love Resolve too!)
+11. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve (yes, we love Resolve too!)
 
 12. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size.
 
 13. Add jump to currently viewed tool from the Viewer.
 
-14. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10 px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all. 
+14. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all. 
 
 15. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
 
@@ -84,7 +85,7 @@ One solution would be for the nodes to have a outline lighten up while they proc
 Other feature requests:
 
 ### Console
-1. Expandable console UI with syntax highlighting
+1. Expandable console UI with syntax highlighting and optional multiline editing.
 
 2. Console should be dockable
 
@@ -146,10 +147,13 @@ Other feature requests:
 
 3. Scripts with UI should be dockable within native interface
 
-4. Add modifiers as tools for the flow (like masks)
+4. Add modifiers as tools for the flow ('Little nodes', like masks). These nodes has to perform operations
+   with channels, Gradients, texts, Points and so on. So the single modifier would be easily reused in the flow. The
+tools like: `Add`, `Mix`, `Extrapolate`, `Concatenate` and so on. And add an option for existing tools to expect input from
+these modifier nodes
 
-5. Add colorcode for expression links
-
+5. Add colorcode for expression links (yes, Excel style!)
+ 
 6. Add alembic files by drag and drop
 
 7. Add choose layouts buttons (i.e toggle single/dual viewer with single button)
