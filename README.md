@@ -166,7 +166,7 @@ Other feature requests:
 
 14. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 
-15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface.
+15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface. See Cinema 4D's Custom User Data Dialog as a perfect example of how it could be. https://help.maxon.net/us/pics/020053.jpg
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
