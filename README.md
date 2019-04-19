@@ -134,7 +134,9 @@ Other feature requests:
 
 11. Replace Material with preserve Bump option. Would allow complex modeling using normal maps, then apply a few Texture and Shading Materials while preserving the bump.
 
-12. Matte object with inverse effect. Shows what is in front of object only (similar to slice)  
+12. Matte object with inverse effect. Shows what is in front of object only (similar to slice)
+
+13. Matte option to use alpha and inverse alpha from images applied to image planes and projections.
 
 
 ### Nodes and Flow
