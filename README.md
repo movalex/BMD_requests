@@ -139,6 +139,8 @@ Other feature requests:
 
 13. Matte option to use alpha and inverse alpha from images applied to image planes and projections.
 
+14. UV mapping ID's. This is very important if you want to use a different mapping for displace3D
+
 
 ### Nodes and Flow
 1. Add batch change properties for multiple selected nodes.
@@ -150,7 +152,9 @@ Other feature requests:
 4. Add modifiers as tools for the flow ('Little nodes', like masks). These nodes has to perform operations
    with channels, Gradients, texts, Points and so on. So the single modifier would be easily reused in the flow. The
 tools like: `Add`, `Mix`, `Extrapolate`, `Concatenate` and so on. And add an option for existing tools to expect input from
-these modifier nodes
+these modifier nodes. 
+Tool modifiers in their current state may become very messy in a short time. Here's an example of the setup for an object orienting along it's path https://cl.ly/64ffe5c24da4
+
 
 5. Add colorcode for expression links (yes, Excel style!)
  
@@ -164,7 +168,7 @@ these modifier nodes
 
 10. OCIO nodes should have a pre-divide/post-multiply checkbox.
 
-11. Right-Click on option for example comps like Houdini
+11. Right-Click on option for example comps like Houdini. The right-click "show example comp" option simply opens a sample comp demonstrating the tool usage.
 
 12. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
 
