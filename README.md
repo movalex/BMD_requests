@@ -84,6 +84,11 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 Other feature requests:
 
+### Preferences
+
+1. Add version dependent Fusion preferences:
+    * there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupperted plugins.
+
 ### Console
 1. Expandable console UI with syntax highlighting and optional multiline editing.
 
@@ -177,6 +182,8 @@ Tool modifiers in their current state may become very messy in a short time. Her
 14. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 
 15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface. See Cinema 4D's Custom User Data Dialog as a perfect example of how it could be. https://help.maxon.net/us/pics/020053.jpg
+
+16. Duplicate tool should not clip DoD to the frame size. Instead we should have to move duplicate source beyond frame and still have correct duplicates. Right now it looks like this (wrong behavior): https://cl.ly/7bfad0d58350
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
