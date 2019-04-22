@@ -87,7 +87,7 @@ Other feature requests:
 ### Preferences
 
 1. Add version dependent Fusion preferences:
-    * there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupperted plugins.
+    * there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupported plugins.
 
 ### Console
 1. Expandable console UI with syntax highlighting and optional multiline editing.
