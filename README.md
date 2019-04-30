@@ -31,7 +31,7 @@
 
 11. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve (yes, we love Resolve too!)
 
-12. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size.
+12. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
 
 13. Add jump to currently viewed tool from the Viewer.
 
