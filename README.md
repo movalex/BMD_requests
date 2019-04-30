@@ -103,7 +103,7 @@ Other feature requests:
     
 6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
 
-7. Add `center node in a flow` script command. It is currently not possible to frame the node centered in the flow. It shouw be the same behavior as `Scale -- Scale to fit` with single node activated. 
+7. Add `center node in a flow` script command. It is currently not possible to frame the node centered in the flow. It should be the same behavior as `Scale -- Scale to fit` with single node activated. 
 
 ### Rendering
 1. Add cache to disk format options
