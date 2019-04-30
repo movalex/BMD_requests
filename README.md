@@ -11,13 +11,10 @@
 * With minimum scale Underlays are represented as outlines https://cl.ly/2900fe6495f4. They should be filled instead.
 * Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb
 
-3. Too much unused space:
-    - Keyframes view as an example:
-    https://cl.ly/62fc6277d620
-        * line space too wide 
-        * nodes list column is also too wide
-        * unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)
-        * Feature request: add more articulate indication if the single keyframe is selected.
+3. Too much unused UI space on HD resolution and Retina laptop monitor:
+    - Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb
+    - Keyframes has unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)   https://cl.ly/ac13884063b2
+    * Keyframes view feature request: add more articulate indication if the single keyframe is selected
 
 4. Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear https://cl.ly/a3f3ab9e9c55
 
@@ -31,8 +28,7 @@
 
 9. Multibutton control has to be actual buttons instead of dropdown menu - The dropdown hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
 
-10. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. 
-* Currently we can add new floating frame and partially move UI elements there, as suggested here: https://forum.blackmagicdesign.com/viewtopic.php?f=22&t=88866&start=50#p499609. The layout is saved with comp metadata, so theoretically it can be reused, but it does not show proper UI on launch. Here's a brief report for this issue: https://www.steakunderwater.com/wesuckless/viewtopic.php?p=23222#p23222
+10. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. Besides, flexible layout in standalone Fusion Studio can be a good selling point as opposed to Resolve's fixed UI Fusion.
 
 11. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve (yes, we love Resolve too!)
 
@@ -107,6 +103,8 @@ Other feature requests:
     c. perhaps this would be useful for calling a script or command once, copying from console and then paste back into console input for repeated use.
     
 6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
+
+7. Add `center node in a flow` script command. It is currently not possible to frame the node centered in the flow. It shouw be the same behavior as `Scale -- Scale to fit` with single node activated. 
 
 ### Rendering
 1. Add cache to disk format options
