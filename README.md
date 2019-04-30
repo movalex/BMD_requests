@@ -14,7 +14,6 @@
 3. Too much unused UI space on HD resolution and Retina laptop monitor:
     - Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb
     - Keyframes has unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)   https://cl.ly/ac13884063b2
-    * Keyframes view feature request: add more articulate indication if the single keyframe is selected
 
 4. Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear https://cl.ly/a3f3ab9e9c55
 
