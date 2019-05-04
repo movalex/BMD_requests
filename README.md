@@ -84,7 +84,7 @@ Other feature requests:
 1. Add version dependent Fusion preferences:
     * there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupported plugins https://cl.ly/b368d4f4747f 
 
-### Console
+### Console and Scripting
 1. Expandable console UI with syntax highlighting and optional multiline editing.
 
 2. Console should be dockable
@@ -103,7 +103,10 @@ Other feature requests:
     
 6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
 
-7. Add `center node in a flow` script command. It is currently not possible to frame the node centered in the flow. It should be the same behavior as `Scale -- Scale to fit` with single node activated. 
+7. All Fusion UI features has to be implemented in scripting API. Scripting guide has to be updated accordingly. Here's some missing features, but there can be more:
+* Autodetect Clip Length with a command
+* Scale to fit FlowView with selected node with a command (effectively centers selected node in a view)
+
 
 ### Rendering
 1. Add cache to disk format options
