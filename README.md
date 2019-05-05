@@ -106,6 +106,7 @@ Other feature requests:
 7. All Fusion UI features has to be implemented in scripting API. Scripting guide has to be updated accordingly. Here's some missing features, but there can be more:
 * Autodetect Clip Length with a command
 * Scale to fit FlowView with selected node with a command (effectively centers selected node in a view)
+* Select Upstream/Downstream nodes with a command
 
 
 ### Rendering
