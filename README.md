@@ -104,9 +104,10 @@ Other feature requests:
 6. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
 
 7. All Fusion UI features has to be implemented in scripting API. Scripting guide has to be updated accordingly. Here's some missing features, but there can be more:
-* Autodetect Clip Length with a command
-* Scale to fit FlowView with selected node with a command (effectively centers selected node in a view)
-* Select Upstream/Downstream nodes with a command
+    * Autodetect Clip Length with a command
+    * Scale to fit FlowView with selected node with a command (effectively centers selected node in a view)
+    * Select Upstream/Downstream nodes with a command
+    * Force refresh source tile pictures
 
 
 ### Rendering
