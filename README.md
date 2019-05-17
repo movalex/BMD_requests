@@ -108,6 +108,7 @@ Other feature requests:
     * Scale to fit FlowView with selected node with a command (effectively centers selected node in a view)
     * Select Upstream/Downstream nodes with a command
     * Force refresh source tile pictures
+    * Show Tile Picture
 
 
 ### Rendering
