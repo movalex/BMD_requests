@@ -9,7 +9,7 @@
 
 2. Underlays 
 * ~~With minimum scale Underlays are represented as outlines https://cl.ly/2900fe6495f4. They should be filled instead.~~
-* Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb
+* ~~Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb~~
 
 3. Too much unused UI space on HD resolution and Retina laptop monitor:
     - Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb
