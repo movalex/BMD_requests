@@ -77,6 +77,8 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost impossible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even further help expression writing. https://imgur.com/uGWgIzT
 
+32. Gamma/Gain sliders in Fusion9 are affected by Show controls option. In Fusion 16 they sometimes does not show at all, regardless of Show controls state (bug). https://cl.ly/818f85e53545
+
 
 Other feature requests:
 
@@ -111,6 +113,7 @@ Other feature requests:
     * Force refresh source tile pictures
     * Show Tile Picture
 
+8. FlowView:GetPos(tool) returns Integer values in Fusion 16. It should be Float instead (bug)
 
 ### Rendering
 1. Add cache to disk format options
