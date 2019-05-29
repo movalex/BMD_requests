@@ -77,7 +77,7 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 31. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost impossible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even further help expression writing. https://imgur.com/uGWgIzT
 
-32. Gamma/Gain sliders are affected by Show controls option. Shouw controls should not have effect on Gamma/Gain UI (bug). https://cl.ly/818f85e53545
+32. Gamma/Gain sliders are affected by Show controls option. Show controls should not affect Gamma/Gain UI (bug). https://cl.ly/818f85e53545
 
 
 Other feature requests:
