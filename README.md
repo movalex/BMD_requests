@@ -8,8 +8,8 @@
     - node elements (arrows, lines) should gradually scale down when scale is below 1. Right now they are only scaled on flow scale < 0.6 
 
 2. Underlays 
-* ~~With minimum scale Underlays are represented as outlines https://cl.ly/2900fe6495f4. They should be filled instead.~~
-* ~~Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb~~
+* ~~With minimum scale Underlays are represented as outlines https://cl.ly/2900fe6495f4. They should be filled instead.~~ Fixed in Beta3
+* ~~Due to this issue, underlays can be easily mistaken with expanded groups. On this screenshot first element is the group with default color, second is Underlay with yellow color: https://cl.ly/2375fa953fbb~~ Fixed in Beta3
 
 3. Too much unused UI space on HD resolution and Retina laptop monitor:
     - Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb
