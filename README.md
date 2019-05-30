@@ -80,6 +80,7 @@ One solution would be for the nodes to have a outline lighten up while they proc
 32. Gamma/Gain sliders are affected by Show controls option. Show controls should not affect Gamma/Gain UI (bug). https://cl.ly/818f85e53545
 
 
+
 Other feature requests:
 
 ### Preferences
@@ -193,6 +194,9 @@ Tool modifiers in their current state may become very messy in a short time. Her
 16. Duplicate tool (Dup) should not clip DoD to the frame size. Instead we should have to move duplicate source beyond frame and still have correct duplicates. Right now it looks like this (wrong behavior): https://cl.ly/7bfad0d58350
 
 17. It is not possible to move keys a single frame left or right with a keystroke on Windows - Fusion 16 beta3. `ctrl+alt+right` instead moves to 0.1 frame (bug).
+
+18. Hold Output (CMD+U) does not work in Fusion 16 — it does not prevent the node tree from being calculated on playback.
+
 
 ### Media Management and Workflow
 1. Add a scaled down media management page with project management / version and revision features like Generation.
