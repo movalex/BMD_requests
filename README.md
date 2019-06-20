@@ -79,6 +79,8 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 32. Gamma/Gain sliders are affected by Show controls option. Show controls should not affect Gamma/Gain UI (bug). https://cl.ly/818f85e53545
 
+33. 3D Viewer lacks button controls for Display Lights, Shadows, Wireframe, Fast Transparency
+
 
 
 Other feature requests:
