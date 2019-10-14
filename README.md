@@ -81,6 +81,7 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 33. 3D Viewer lacks button controls for Display Lights, Shadows, Wireframe, Fast Transparency
 
+34. TextPlus follower modifier: add an option to skip spaces between words in Follower Timing page. Delay type dropdown should include: Between each character -- Between each character excluding spaces -- Between First and Last Character 
 
 
 Other feature requests:
