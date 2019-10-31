@@ -88,8 +88,7 @@ Other feature requests:
 
 ### Preferences
 
-1. ~~Add version dependent Fusion preferences:
-    ~~* there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupported plugins https://cl.ly/b368d4f4747f 
+1. ~~Add version dependent Fusion preferences:* there should be an option to set Fusion16 preferences folder separately from Fusion 9's. So we could set a plugins folder to different place in case it has some unsupported plugins https://cl.ly/b368d4f4747f ~~
     (preferences are saved separately in `C:\Program Files\Blackmagic Design\Fusion 16\` and `C:\Program Files\Blackmagic Design\Fusion 9\` respectively)
 
 ### Console and Scripting
