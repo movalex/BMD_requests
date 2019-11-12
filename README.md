@@ -47,7 +47,7 @@ One solution would be for the nodes to have a outline lighten up while they proc
 
 Other feature requests:
 ### Console and Scripting
-0. We need an updated Scripting manual, with all new features and changed applied since Fusion 8.
+0. We need an updated Scripting manual, with all new features and changes applied since Fusion 8.
 1. Expandable console UI with syntax highlighting and optional multiline editing.
 2. Console should be dockable
 3. Save last commands history on Fusion restart
