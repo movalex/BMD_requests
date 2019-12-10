@@ -43,7 +43,8 @@ One solution would be for the nodes to have a outline lighten up while they proc
 31. Gamma/Gain sliders are affected by Show controls option. Show controls should not affect Gamma/Gain UI (bug). https://cl.ly/818f85e53545
 32. 3D Viewer lacks button controls for Display Lights, Shadows, Wireframe, Fast Transparency
 33. TextPlus follower modifier: add an option to skip spaces between words in Follower Timing page. Delay type dropdown should include: Between each character -- Between each character excluding spaces -- Between First and Last Character 
-34. Here's a great UI [tweak](https://twitter.com/Fifty_5o/status/1191060578158166017) to take into considereation ![](https://i.imgur.com/0UmaUsV.jpg)
+34. Here's a great Fusion UI [tweak](https://twitter.com/Fifty_5o/status/1191060578158166017) by [@Fifty_5o](https://twitter.com/Fifty_5o) to take into considereation ![](https://i.imgur.com/0UmaUsV.jpg)
+35. Sticky notes should not have their color changed on mouse hover. This will prevent unnecessary flow blinking. Sometimes notes are used as Underlays, since the text in the note is visible from any zoom size. This color blinking prevents Notes to be used the usual way in Fusion 16. Example: [blinking in Fusion 16](https://p27.f0.n0.cdn.getcloudapp.com/items/jkunJnKm/Screen+Recording+2019-12-10+at+02.14.56.72+PM.gif?v=d70c3e8a2fe51b31a9e71f00e2118136), [correct behavior in Fusion 9](https://p27.f0.n0.cdn.getcloudapp.com/items/yAuLoLZd/Screen+Recording+2019-12-10+at+02.20.33.88+PM.gif?v=d562c0fe92f59bd0a429754bd1114434)
 
 Other feature requests:
 ### Console and Scripting
