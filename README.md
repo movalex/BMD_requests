@@ -17,35 +17,31 @@
 7a. Polyline Shape animation does not have animation indicator at all https://share.getcloudapp.com/llu4z48w
 8. Multibutton control has to be actual buttons instead of dropdown menu - The dropdown hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
 9. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. Besides, flexible layout in standalone Fusion Studio can be a good selling point as opposed to Resolve's fixed UI Fusion.
-10. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve (yes, we love Resolve too!)
-11. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
-12. Add jump to currently viewed tool from the Viewer.
-13. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all. 
-14. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
-15. Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7
-16. Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.
-17. Move the Audio Enable button to the other side of the play controls and include a volume slider (same as resolve edit page)
-18. Make the Inspector panel collapse down next to the flow instead of the views when clicking the arrow toggle in the upper right corner.
-19. Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click (click on 'Spline' while holding alt or middle clicking and the 'Nodes' and Keyframes' panels are hidden instead of having split view, etc.)
-20. Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar.
-21. Trim 8 to 10 pixels from the height of the play control bar.
-22. Include the current frame number in small type and top-justified right next to the red playhead in the time ruler.
-23. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
-24. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
-25. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
-26. Additional Subview options:
-    a. Add ability to drag a subview outside of the view panel
-    b. Add ability to display multiple subviews in a separate standalone panel next to each view (like a slide out drawer) instead of just as overlays within the views.
-27. Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful. 
+10. Node tile colors are now limited to 16 pre-defined options instead of a full RGB spectrum. Sticky Notes can't be recolored using the interface at all right now.
+11. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve.
+12. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
+13. Add jump to currently viewed tool from the Viewer.
+14. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all. 
+15. Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6
+16. ~~Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7~~ fixed in v16.1
+17. ~~Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.~~ fixed in 16.1
+19. Make the Inspector panel collapse down next to the flow instead of the views when clicking the arrow toggle in the upper right corner.
+20. Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click (click on 'Spline' while holding alt or middle clicking and the 'Nodes' and Keyframes' panels are hidden instead of having split view, etc.)
+21. Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar.
+22. Trim 8 to 10 pixels from the height of the play control bar.
+23. Include the current frame number in small type and top-justified right next to the red playhead in the time ruler.
+24. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
+25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
+26. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
+27. ~~Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful.~~ tabbed view is possible with floating window. But is still has some bugs. 
 28. The scaling on 4K monitors is problematic in Fusion and also in Resolve, there is only two options: 100% and 200%. On 4K laptop screen the scaling looks fine but on 32 inch 4K monitor the 100% is too small to see and 200% is too big, taking away lots of space with no use that could be used to view the image or navigate the node graph.
 29. Nodes should light up when processed much more than currently is. In F9 it was easy to see what's going on in both the node-viewer and the navigator but in F16 it's very hard to see. On green nodes it's extremely hard to see and when zoomed out so the text in the nodes hide, nothing at all indicates that nodes are being processed any longer.
 One solution would be for the nodes to have a outline lighten up while they process. https://imgur.com/R22NNSJ
 30. The expression-field should be multi-line to help writing big expressions. In F16 the field is even smaller than F9 and it's almost impossible to edit longer expressions. To spice things up, line number, syntax highlighting and error messages could also be added to even further help expression writing. https://imgur.com/uGWgIzT
 31. Gamma/Gain sliders are affected by Show controls option. Show controls should not affect Gamma/Gain UI (bug). https://cl.ly/818f85e53545
-32. 3D Viewer lacks button controls for Display Lights, Shadows, Wireframe, Fast Transparency
-33. TextPlus follower modifier: add an option to skip spaces between words in Follower Timing page. Delay type dropdown should include: Between each character -- Between each character excluding spaces -- Between First and Last Character 
-34. Here's a great Fusion UI [tweak](https://twitter.com/Fifty_5o/status/1191060578158166017) by [@Fifty_5o](https://twitter.com/Fifty_5o) to take into considereation ![](https://i.imgur.com/0UmaUsV.jpg)
-35. Sticky notes should not have their color changed on mouse hover. This will prevent unnecessary flow blinking. Sometimes notes are used as Underlays, since the text in the note is visible from any zoom size. This color blinking prevents Notes to be used the usual way in Fusion 16. Example: [blinking in Fusion 16](https://p27.f0.n0.cdn.getcloudapp.com/items/jkunJnKm/Screen+Recording+2019-12-10+at+02.14.56.72+PM.gif?v=d70c3e8a2fe51b31a9e71f00e2118136), [correct behavior in Fusion 9](https://p27.f0.n0.cdn.getcloudapp.com/items/yAuLoLZd/Screen+Recording+2019-12-10+at+02.20.33.88+PM.gif?v=d562c0fe92f59bd0a429754bd1114434)
+32. ~~3D Viewer lacks button controls for Display Lights, Shadows, Wireframe, Fast Transparency~~ implemented in 16.1
+33. Here's a great Fusion UI [tweak](https://twitter.com/Fifty_5o/status/1191060578158166017) by [@Fifty_5o](https://twitter.com/Fifty_5o) to take into considereation ![](https://i.imgur.com/0UmaUsV.jpg)
+34. Sticky notes should not have their color changed on mouse hover. This will prevent unnecessary flow blinking. Sometimes notes are used as Underlays, since the text in the note is visible from any zoom size. This color blinking prevents Notes to be used the usual way in Fusion 16. Example: [blinking in Fusion 16](https://p27.f0.n0.cdn.getcloudapp.com/items/jkunJnKm/Screen+Recording+2019-12-10+at+02.14.56.72+PM.gif?v=d70c3e8a2fe51b31a9e71f00e2118136), [correct behavior in Fusion 9](https://p27.f0.n0.cdn.getcloudapp.com/items/yAuLoLZd/Screen+Recording+2019-12-10+at+02.20.33.88+PM.gif?v=d562c0fe92f59bd0a429754bd1114434)
 
 Other feature requests:
 ### Console and Scripting
@@ -104,16 +100,16 @@ tools like: `Add`, `Mix`, `Extrapolate`, `Concatenate` and so on. And add an opt
 these modifier nodes. 
 Tool modifiers in their current state may become very messy in a short time. Here's an example of the setup for an object orienting along it's path https://cl.ly/64ffe5c24da4
 5. Add colorcode for expression links 
- 
-6. Add alembic files by drag and drop
-7. Add choose layouts buttons (i.e toggle single/dual viewer with single button)
-8. Collapse nodes group by double-click on the group's header.
-9. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
-10. OCIO nodes should have a pre-divide/post-multiply checkbox.
-11. Right-Click on option for example comps like Houdini. The right-click "show example comp" option simply opens a sample comp demonstrating the tool usage.
-12. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
-13. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
-14. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
+6. TextPlus follower modifier: add an option to skip spaces between words in Follower Timing page. Delay type dropdown should include: Between each character -- Between each character excluding spaces -- Between First and Last Character 
+7. Add alembic files by drag and drop
+8. Add choose layouts buttons (i.e toggle single/dual viewer with single button)
+9. Collapse nodes group by double-click on the group's header.
+10. Add bookmarking to flow and include a docked bookmarks panel with a show/hide button just like all other panels.
+11. OCIO nodes should have a pre-divide/post-multiply checkbox.
+12. Right-Click on option for example comps like Houdini. The right-click "show example comp" option simply opens a sample comp demonstrating the tool usage.
+13. Add the possibility to replace a node with another one from the flow with keystroke + mouse drag. Eg. I have a merge node connected to my tree but I want to change it to a Bool already existing in my flow viewer. I should be able to hold down Ctrl, drag the Bool over my merge and they should swap places, connecting FG and BG (or other equal named inputs) automatically.
+14. Add the option to open node groups in full flow views (ether as sub tabs or replace the flow content with group and include an exit button)
+15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface. See Cinema 4D's Custom User Data Dialog as a perfect example of how it could be. https://help.maxon.net/us/pics/020053.jpg
 16. Duplicate tool (Dup) should not clip DoD to the frame size. Instead we should have to move duplicate source beyond frame and still have correct duplicates. Right now it looks like this (wrong behavior): https://cl.ly/7bfad0d58350
 17. It is not possible to move keys a single frame left or right with a keystroke on Windows - Fusion 16 beta3. `ctrl+alt+right` instead moves to 0.1 frame (bug).
