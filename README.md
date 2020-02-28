@@ -16,7 +16,7 @@
 7. Animated elements should be highlighted, like in Fu9. Red dot is just not enough https://cl.ly/01a0a24552de. This will help also to distinguish whether High of Low group is animated in a Range Control
 7a. Polyline Shape animation does not have animation indicator at all https://share.getcloudapp.com/llu4z48w
 8. Multibutton control has to be actual buttons instead of dropdown menu - The dropdown hides the UI and produces unnecessary clicks: https://cl.ly/3bc9b8649f89
-9. Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. Besides, flexible layout in standalone Fusion Studio can be a good selling point as opposed to Resolve's fixed UI Fusion.
+9. ~~Add flexible layout to Fusion 16 UI. This is a huge theme, I'll just emphasize the small things. Fusion became an industry standard for VFX for the flexibility it gives the artist. It is not only about the tools you can build, but also about flexible UI. Someone needs huge node tree, someone needs vast viewer. Developers need a dockable console. Someone moves the Inspector to the left, because operates with left hand, and it just speeds up the whole workflow. Someone aligns the nodes vertically and put the node tree to the right. Someone has a bunch of scripts moved to customizable toolbar. So flexible layout is a must for Fusion. Besides, flexible layout in standalone Fusion Studio can be a good selling point as opposed to Resolve's fixed UI Fusion~~. The feature is still there, but not implemented officially. See layouter script https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.Toolbar16/Scripts/Comp/Toolbar16/Layouter.lua
 10. Node tile colors are now limited to 16 pre-defined options instead of a full RGB spectrum. Sticky Notes can't be recolored using the interface at all right now.
 11. Add fullscreen UI for Fusion Studion on Windows, add double monitor layout, like in Resolve.
 12. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
@@ -90,6 +90,7 @@ Other feature requests:
 19. Matte object with inverse effect. Shows what is in front of object only (similar to slice)
 20. Matte option to use alpha and inverse alpha from images applied to image planes and projections.
 21. UV mapping ID's. This is very important if you want to use a different mapping for displace3D
+22. Add modify individual objects after Duplicate/Replicate/Particles/ https://www.steakunderwater.com/wesuckless/viewtopic.php?f=6&t=2839
 ### Nodes and Flow
 1. Add batch change properties for multiple selected nodes.
 2. Add Copy tool with keystroke-mouse drag
