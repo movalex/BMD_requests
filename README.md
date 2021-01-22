@@ -1,12 +1,8 @@
 # The most friendly list of requests for Blackmagic Design Fusion
 ## Fusion 16
 ### UI
-1. Node size scale is too big.
-    - Currently Fusion 16 flow scale measurements are the same as in Fu9. For instance, the node name disappears from the view at the FlowView scale of 0.6 in both versions. But since the nodes in fu16 are initially bigger, the text disappears too early, and we end up with normal size nodes without any text. https://cl.ly/5741fc26e46e
-    - minimum scale is also too large. Here's side-by-side comparison of the minimum size flow in Fu16 and Fu9 https://cl.ly/8d096181e9a4
-    - node elements (arrows, lines) should gradually scale down when scale is below 1. Right now they are only scaled on flow scale < 0.6
-2. Too much unused UI space:
-    ~~- Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden now, see Toolbar16 in Reactor)
+1. Too much unused UI space:
+    ~~- Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
     - Keyframes has unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)   https://cl.ly/ac13884063b2
     - Tools window layout is aligned to the right, there's too much empty space on the left, and tool controls are too short: https://cl.ly/15024d65d7e7, https://cl.ly/347084b4adcc
 3. ~~Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear~~ https://cl.ly/a3f3ab9e9c55 (fixed in Fusion 17)
