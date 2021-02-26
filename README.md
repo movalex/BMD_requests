@@ -1,10 +1,10 @@
 # The most friendly list of requests for Blackmagic Design Fusion
 ## Fusion 16
 ### UI
-1. Too much unused UI space:
-    ~~- Vewer UI elements can be twice as narrower: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
+1. Too much of unused UI space:
+    ~~- Vewer UI elements can be twice as narrow: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
     - Keyframes has unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)   https://cl.ly/ac13884063b2
-2. Inspector window layout is aligned to the right, there's too much empty space on the left, and tool controls are too short: https://cl.ly/15024d65d7e7, https://cl.ly/347084b4adcc
+2. There's too much empty space on the left side of the Inspector: https://cl.ly/15024d65d7e7, https://cl.ly/347084b4adcc
 3. ~~Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear~~ https://cl.ly/a3f3ab9e9c55 <fixed in Fusion 17>
 4. Some Viewer controls are hidden behind context menus, this triples the amount of clicks. We need ~~DoD~~, lock view, show normalized, Gain/Gamma buttons, `fit` view button. Also `show only selected tool` button in Splines and Keyframes (now DoD appears on long press of RoI button - v16.1)
 5. Add an option for text-only Toolbar buttons, like in Fu9 (options like: only icons, only text, or both, icon with text). Also make it detachable ~~and customizable~~ toolbar. <customizable toolbar added in Fuison 17>
