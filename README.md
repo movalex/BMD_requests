@@ -107,7 +107,7 @@ Other feature requests:
 15. Add a filtering dialog that highlights the border of all nodes in the flow of a selected type, active/inactive within a given frame range, contain expressions, contain custom controls, or contain keyframes.
 15. Overhaul the Custom Controls interface so it is easier to use and commit changes without closing the interface. See Cinema 4D's Custom User Data Dialog as a perfect example of how it could be. https://help.maxon.net/us/pics/020053.jpg
 16. Duplicate tool (Dup) should not clip DoD to the frame size. Instead we should have to move duplicate source beyond frame and still have correct duplicates. Right now it looks like this (wrong behavior): https://cl.ly/7bfad0d58350
-17. It is not possible to move keys a single frame left or right with a keystroke on Windows - Fusion 16 beta3. `ctrl+alt+right` instead moves to 0.1 frame (bug). 
+17. ~~It is not possible to move keys a single frame left or right with a keystroke on Windows - Fusion 16 beta3. `ctrl+alt+right` instead moves to 0.1 frame (bug)~~.  <correct keyframe nudge shortcut on Windows is `WIN+ALT`>
 18. Bookmarks implemented in Fusion 17 should not only recall Flow position, but should activate the bookmarked tool.
 
 ### Media Management and Workflow
