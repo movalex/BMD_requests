@@ -53,7 +53,8 @@ Other feature requests:
     * Scale to fit FlowView with selected node with a command (center selected node in a Flow)
     * Select Upstream/Downstream nodes with a command
     * Force refresh source tile pictures
-    * Show Tile Picture
+    * Toggle show tile picture
+    * Check if the tile picture is shown
 7.FlowView:GetPos(tool) returns Integer values in Fusion 16 and 17. It should be Float instead! (bug)
 
 ### Rendering
