@@ -23,7 +23,7 @@
 18. ~~Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7~~ <fixed in v16.1>
 19. ~~Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.~~ <fixed in 16.1>
 20. Make an option for the Inspector panel to collapse down next to the flow when clicking the arrow toggle in the upper right corner.
-21. ~~Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click. Click on 'Spline' while holding alt and the 'Nodes' and Keyframes' panels are hidden etc~~ <this can be achieved with layout commands binded with hotkeys>
+21. ~~Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click. Click on 'Spline' while holding alt and the 'Nodes' and Keyframes' panels are hidden etc.~~ This can be achieved with layout commands binded with hotkeys
 22. ~~Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar. Trim 8 to 10 pixels from the height of the play control bar.~~ <Fusion 17 now has more dense font spacing in UI, Timeview and ActionStrip can be disabled via scripting>
 24. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
 25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
