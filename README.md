@@ -24,8 +24,7 @@
 19. ~~Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.~~ <fixed in 16.1>
 20. Make an option for the Inspector panel to collapse down next to the flow when clicking the arrow toggle in the upper right corner.
 21. ~~Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click (click on 'Spline' while holding alt and the 'Nodes' and Keyframes' panels are hidden etc.)~~ <this can be achieved with layout commands binded with hotkeys>
-22. ~~Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar.~~
-23. ~~Trim 8 to 10 pixels from the height of the play control bar.~~ -- <Fusion 17 now has mode dense font spacing in UI, Timeview and ActionStrip can be disabled via scripting> 24. Add the current frame number in small type and top-justified right next to the red playhead in the time ruler.
+22. ~~Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar. Trim 8 to 10 pixels from the height of the play control bar.~~ <Fusion 17 now has more dense font spacing in UI, Timeview and ActionStrip can be disabled via scripting>
 24. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
 25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
 26. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
