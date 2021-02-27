@@ -25,7 +25,6 @@
 20. Make an option for the Inspector panel to collapse down next to the flow when clicking the arrow toggle in the upper right corner.
 21. ~~Add Alt-click action to the Spline and Keyframe buttons to collapse all other panels sharing the same space in one click. Click on 'Spline' while holding alt and the 'Nodes' and Keyframes' panels are hidden etc.~~ This can be achieved with layout commands binded with hotkeys
 22. ~~Trim 10 to 16 pixels from the top and bottom of the top panel button bar and the main toolbar. Trim 8 to 10 pixels from the height of the play control bar.~~ <Fusion 17 now has more dense font spacing in UI, Timeview and ActionStrip can be disabled via scripting>
-24. Allow changing the currently viewed tool name by double-clicking the name in the view header bar.
 25. Add long-click and/or right click dropdown to the toolbar buttons to show list of all alternate tools found in the same category as the default tool for the button.
 26. Make the global and render frame range fields in the play control bar wider to fully display feet+frames when using that mode.
 27. ~~Bring back tabbed view in the lower part between different aspect like nodes, spline, key frames. The current solution of having half of the space for each function is not ideal, there's just not enough space to work. So to go from the Nodes to Spline and back we have to do 4 clicks to instead of 2. Adding shortcut would be also useful.~~ tabbed view is possible with floating window. But this still has some bugs. 
