@@ -2,7 +2,7 @@
 ## Fusion 16/17
 ### UI
 1. Too much of unused UI space:
-    ~~- Vewer UI elements can be twice as narrow: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
+    - ~~Vewer UI elements can be twice as narrow: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
     - Keyframes has unusable lock icon before node name (does not reflect if the node is locked, so what is it for?)   https://cl.ly/ac13884063b2
 2. There's too much empty space on the left side of the Inspector: https://cl.ly/15024d65d7e7, https://cl.ly/347084b4adcc
 3. ~~Three dots buttons in the window corners that do nothing (Inspector, Nodes window). If the menu is empty, the button should not appear~~ https://cl.ly/a3f3ab9e9c55 <fixed in Fusion 17>
