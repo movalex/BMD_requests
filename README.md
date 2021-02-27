@@ -1,5 +1,5 @@
 # The most friendly list of requests for Blackmagic Design Fusion
-## Fusion 16
+## Fusion 16/17
 ### UI
 1. Too much of unused UI space:
     ~~- Vewer UI elements can be twice as narrow: https://cl.ly/661278c2b3eb~~ (TimeView panel can be hidden with `comp:ShowView("LayoutStrip", false)`)
