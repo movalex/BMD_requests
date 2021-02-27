@@ -45,9 +45,8 @@ Other feature requests:
 2. Console or any script window should be dockable
 3. Save last Console commands history and preserve them on Fusion restart
 4. Add option for verbose logging of all actions with and without hierarchy - This could be a separate tab within the console
-    a. This will help with troubleshooting exactly where stuff breaks as we can see all actions executed up to that point
-    b. This will help to quickly copy and paste paramters into expressions as we can tweak a paramter and then select and copy the console output.
-    c. perhaps this would be useful for calling a script or command once, copying from console and then paste back into console input for repeated use.
+    - This will help with troubleshooting exactly where stuff breaks as we can see all actions executed up to that point
+    - This will help quickly copy and paste paramters into expressions as we can tweak a paramter and then select and copy the console output.
 5. Add a quick input field inline with the playhead controls or at the bottom of the page for console slash commands and drag and drop actions. This field would just be for typing or pasting in commands blindly without a feedback/log display. Right next to this field could be a button to bring up the whole console view
 6. These Fusion features has to be implemented in scripting API. Scripting guide has to be updated accordingly:
     * Autodetect Clip Length with a command
