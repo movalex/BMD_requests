@@ -18,8 +18,8 @@
 13. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
 14. ~~Jump to currently viewed tool from the Viewer is not working~~ <fixed in Fusion 17>
 15. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all.
-16. Move keyframes by 1 frame with shortcut.
-17. ~~Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6~~ <fixed in Fusion 17>
+16. ~~Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6~~ <fixed in Fusion 17>
+17. Timeline ruler can be hidden by the Ease In / Ease Out controls in Spline editor.
 18. ~~Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7~~ <fixed in v16.1>
 19. ~~Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.~~ <fixed in 16.1>
 20. Make an option for the Inspector panel to collapse down next to the flow when clicking the arrow toggle in the upper right corner.
@@ -38,7 +38,6 @@
 33. Here's a great Fusion [UI tweak](https://twitter.com/Fifty_5o/status/1191060578158166017) by [@Fifty_5o](https://twitter.com/Fifty_5o) to take into considereation ![](https://i.imgur.com/0UmaUsV.jpg)
 34. Sticky notes should not have be highlighted on mouse hover. This will prevent unnecessary flow blinking. Sometimes notes are used as Underlays, since the text in the note is visible from any zoom size. This color blinking prevents Notes to be used the usual way in Fusion 16. Example: [blinking in Fusion 16](https://p27.f0.n0.cdn.getcloudapp.com/items/jkunJnKm/Screen+Recording+2019-12-10+at+02.14.56.72+PM.gif?v=d70c3e8a2fe51b31a9e71f00e2118136), [correct behavior in Fusion 9](https://p27.f0.n0.cdn.getcloudapp.com/items/yAuLoLZd/Screen+Recording+2019-12-10+at+02.20.33.88+PM.gif?v=d562c0fe92f59bd0a429754bd1114434)
 35. Sticky Notes should be able to be recolored. Currently Set color option is `Clear color` only.
-36. Timeline ruler can be hidden by the Ease In / Ease Out controls in Spline editor.
 
 Other feature requests:
 
