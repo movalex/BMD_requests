@@ -19,7 +19,7 @@
 14. ~~Jump to currently viewed tool from the Viewer is not working~~ <fixed in Fusion 17>
 15. Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all.
 16. ~~Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6~~ <fixed in Fusion 17>
-17. Timeline ruler can be hidden by the Ease In / Ease Out controls in Spline editor.
+17. Timeline ruler can be hidden by the Ease In / Ease Out controls in Spline editor: https://i.imgur.com/Ug6WANY.png
 18. ~~Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7~~ <fixed in v16.1>
 19. ~~Remember panel sizes when show/hide -- Hide the flow by clicking the 'Nodes' button and then show it and the panel doesn't retain the size before hiding.~~ <fixed in 16.1>
 20. Make an option for the Inspector panel to collapse down next to the flow when clicking the arrow toggle in the upper right corner.
