@@ -17,7 +17,7 @@
 12. ~~Add fullscreen UI for Fusion Studio on Windows, add double monitor layout, like in Resolve.~~ <this can be achieved with floating windows>
 13. Add parameters dropdown for current tool in Viewer, such as Transform Pivot, Rotation, Center, Size: https://cl.ly/b042d3674896
 14. ~~Jump to currently viewed tool from the Viewer is not working~~ <fixed in Fusion 17>
-15. ``Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all.`` (fixed in Fusion 18)
+15. ~~Right-left arrows in the viewer has to move polygon mask points. They are moving playhead instead. Currently in Fusion 16 we can move a point by 10px with `Shift+Alt` pressed, and by 1px with `Shift+Ctrl+Alt`. This is not intuitive at all.~~ (fixed in Fusion 18)
 16. ~~Composition tabs dropdown shows `SubWnd` text instead of comp name. https://cl.ly/e2f0dfb261f6~~ <fixed in Fusion 17>
 17. ~~Timeline ruler can be hidden by the Ease In / Ease Out controls in Spline editor: https://i.imgur.com/Ug6WANY.png~~ (fixed in Fusion 18)
 18. ~~Masked Background disappears on mask move: a) add BG with polygon, b) select all points and move: https://cl.ly/748406a06eb7~~ <fixed in v16.1>
